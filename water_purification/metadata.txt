@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=S+WaterPurification
+qgisMinimumVersion=3.0
+description=Water Purification
+version=1,0
+author=Oliu Llorene and Xavier Garcia - ICRA(Catalan Institute for Water Research)/MERLIN
+email=ollorente@icra.cat
+
+about=Water purification is an essential ecosystem service whereby natural ecosystems contribute to the removal of harmful substances—such as nitrogen and phosphorus—from water, thereby enhancing its quality and safety for human use and for the ecosystems themselves. This plugin delivers two Python Processing models: Landscape model(computes N & P retention and their economic value per Landscape Service Unit (LSU)) and Channel model (computes the same indicators for river/channel) segments.Outputs include `PhoshPurVal` and `NitroPurVal` layers expressing the annual economic benefit. Developed within the EU MERLIN project.
+
+tracker=https://github.com/icra/SPlusWaterPurification/issues
+repository=https://github.com/icra/SPlusWaterPurification
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python,ecosystem services,water purification,nitrogen,phosphorus,QGIS,processing
+
+homepage=https://github.com/icra/SPlusWaterPurification
+category=Analysis
+icon=Icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
